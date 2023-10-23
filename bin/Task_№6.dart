@@ -12,9 +12,7 @@ void main () {
     }
     else {
       for (var i = 0; i < listOfString.length; i++) {
-        sumOfList.add(listOfString[numb]
-            .toString()
-            .length);
+        sumOfList.add(listOfString[numb].toString().length);
         numb++;
       }
       print(sumOfList.reduce((a, b) => a + b));

@@ -22,19 +22,15 @@ class Cuboid {
   var length;
   var width;
   var height;
-  var _squareRez;
-  var _volumeRez;
 
   Cuboid (this.length, this.height, this.width);
 
-  int get squareCuboid {
-    _squareRez = 2*(length*width + width*height + length*height);
-    return _squareRez;
+  num get squareCuboid {
+    return 2*(length*width + width*height + length*height);
   }
 
   int get volumeCuboid {
-    _volumeRez = length * width * height;
-    return _volumeRez;
+    return length * width * height;
   }
 }
 

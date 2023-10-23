@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0385e6c7-9e56-4ad7-b261-1d99ed8a02b1" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0385e6c7-9e56-4ad7-b261-1d99ed8a02b1" name="Changes" comment="fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +38,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.Task_№8.dart">
+  <component name="RunManager" selected="Dart Command Line App.Task_№6.dart">
     <configuration name="Task_№4.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/bin/Task_№4.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -68,9 +66,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.Task_№8.dart" />
-        <item itemvalue="Dart Command Line App.Task_№7.dart" />
         <item itemvalue="Dart Command Line App.Task_№6.dart" />
+        <item itemvalue="Dart Command Line App.Task_№7.dart" />
+        <item itemvalue="Dart Command Line App.Task_№8.dart" />
         <item itemvalue="Dart Command Line App.Task_№5.dart" />
         <item itemvalue="Dart Command Line App.Task_№4.dart" />
       </list>
@@ -92,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697904823637</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1698056048055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698056048055</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix">
+      <created>1698056194908</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698056194908</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>

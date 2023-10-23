@@ -20,8 +20,8 @@ void main () {
           numb++;
         }
         print(sumOfList.reduce((a, b) => a+b));
-      };
-    };
+      }
+    }
   }
   var wordsList = [-1,1,-3,5,-10,20];
   numbList(wordsList);

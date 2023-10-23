@@ -5,17 +5,15 @@
 
 void main () {
   numbList(List listOfString) {
-    var sumOfList = [];
-    var numb = 0;
+    var sumOfList = 0;
     if (listOfString.isEmpty == true) {
       print(0);
     }
     else {
-      for (var i = 0; i < listOfString.length; i++) {
-        sumOfList.add(listOfString[numb].toString().length);
-        numb++;
+      for (String words in listOfString) {
+        sumOfList += words.length;
       }
-      print(sumOfList.reduce((a, b) => a + b));
+      print(sumOfList);
     }
   }
   var wordsList = ["asd","dsdasd"];

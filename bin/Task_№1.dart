@@ -3,15 +3,31 @@
 // Если число кратно и 3, и 5, то программа должна выводить слово «Super Quiz»
 
 void main() {
-  for (int i = 0; i < 101; i++) {
-    if (i % 3 == 0 && i % 5 == 0) {
-      print("Super Quiz");
-    } else if (i % 3 == 0) {
+  // for (int i = 1; i < 101; i++) {
+  //   if (i % 3 == 0 && i % 5 == 0) {
+  //     print("Super Quiz");
+  //   } else if (i % 3 == 0) {
+  //     print("Super");
+  //   } else if (i % 5 == 0) {
+  //     print("Quiz");
+  //   } else {
+  //     print(i);
+  //   }
+  // }
+
+  for (int i = 1; i < 101; i++) {
+    if (i % 3 == 0) {
       print("Super");
-    } else if (i % 5 == 0) {
-      print("Quiz");
+
+      if (i % 5 == 0) {
+        print("Super Quiz");
+      }
     } else {
-      print(i);
+      if (i % 5 == 0) {
+        print("Quiz");
+      } else {
+        print(i);
+      }
     }
   }
 }

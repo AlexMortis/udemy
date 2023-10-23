@@ -67,8 +67,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Dart Command Line App.Task_№6.dart" />
-        <item itemvalue="Dart Command Line App.Task_№7.dart" />
         <item itemvalue="Dart Command Line App.Task_№8.dart" />
+        <item itemvalue="Dart Command Line App.Task_№7.dart" />
         <item itemvalue="Dart Command Line App.Task_№5.dart" />
         <item itemvalue="Dart Command Line App.Task_№4.dart" />
       </list>
@@ -104,7 +104,28 @@
       <option name="project" value="LOCAL" />
       <updated>1698056194908</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix">
+      <created>1698056219725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698056219725</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix">
+      <created>1698056467255</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698056467255</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix">
+      <created>1698058900715</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698058900715</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

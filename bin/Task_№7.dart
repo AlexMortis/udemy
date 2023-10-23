@@ -5,8 +5,7 @@
 
 void main () {
   numbList(List listOfString) {
-    var sumOfList = [];
-    var numb = 0;
+    var sumOfList = 0;
     if (listOfString.isEmpty == true) {
       print(0);
     }
@@ -15,14 +14,13 @@ void main () {
       if (listOfString.isEmpty == true) {
         print(0);
       } else {
-        for (var i = 0; i < listOfString.length; i++) {
-          sumOfList.add(listOfString[numb]);
-          numb++;
+        for (int numb in listOfString) {
+          sumOfList += numb;
         }
-        print(sumOfList.reduce((a, b) => a + b));
+        print(sumOfList);
       }
     }
   }
-  var wordsList = [-1,1,-3,5,-10,20];
+  var wordsList = [-1,-3,-10];
   numbList(wordsList);
 }
